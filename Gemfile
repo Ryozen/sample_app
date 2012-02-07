@@ -10,9 +10,10 @@ group :production do
 	gem 'therubyracer-heroku', '0.8.1.pre3'
 end
 
-group :development, :test do
+group :development do
     gem 'sqlite3'
-	gem 'rspec-rails', '2.6.1'
+	gem 'rspec-rails', '2.6.1'	
+	gem 'annotate', '2.4.0'
 end
 
 group :test do
